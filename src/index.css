@@ -15,7 +15,7 @@
   --Pale-Blue: hsl(236, 100%, 87%);
 }
 
-body {
+* {
   margin: 0;
   box-sizing: border-box;
   font-size: 18px;

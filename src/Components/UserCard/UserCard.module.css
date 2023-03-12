@@ -1,4 +1,48 @@
 .UserCardContainer {
-    height: 42vh;
-    background-color: var(--Profile);
+  height: 42vh;
+  background-color: var(--Dark-blue);
+  border-radius: 5px;
+}
+
+.UserInformation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: var(--Profile);
+  border-radius: 5px;
+  padding: 1rem;
+  height: 65%;
+}
+
+.UserInformation img {
+  border-radius: 50%;
+  border: 2px solid white;
+  width: 30%;
+}
+
+.UserInformation p {
+  font-weight: 300;
+  font-size: small;
+  color: var(--Pale-Blue);
+}
+
+.UserInformation h1 {
+  font-size: x-large;
+  font-weight: 500;
+  color: var(--Pale-Blue);
+}
+
+.FilterControls {
+    padding: 1rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.FilterControls button {
+    color: var(--Pale-Blue);
+    background-color: var(--Dark-blue);
+    border: none;
+    margin-top: 0.2rem;
+    cursor: pointer;
 }
