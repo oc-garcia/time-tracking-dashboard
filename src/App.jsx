@@ -1,9 +1,10 @@
+import FullProfile from "./Components/FullProfile"
 
 function App() {
  
   return (
     <main>
-      <h1>Time Tracker</h1>
+      <FullProfile />
     </main>
   )
 }
