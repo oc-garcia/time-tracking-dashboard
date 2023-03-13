@@ -4,23 +4,27 @@ import TimeTrackerCard from '../TimeTrackerCard'
 import UserCard from '../UserCard'
 
 import style from './FullProfile.module.css'
-import datas from '../../Assets/Data/data.json'
+import userData from '../../Assets/Data/data.json'
 
 export default function FullProfile() {
 
-  console.log(datas)
+  const hours = userData[0].hours
+
+  console.log(hours)
   return (
     <section className={style.ProfileContainer}>
       <div className={style.UserContainer}>
-        <UserCard name={datas[0].user} avatar={datas[0].avatar} />
+        <UserCard name={userData[0].user} avatar={userData[0].avatar} />
       </div>
       <div className={style.TimeContainer}>
-        <TimeTrackerCard />
-        <TimeTrackerCard />
-        <TimeTrackerCard />
-        <TimeTrackerCard />
-        <TimeTrackerCard />
-        <TimeTrackerCard />
+        {hours.map(data => {
+          return(
+          <TimeTrackerCard
+          key={data.title} 
+          title={data.title}
+          />
+          )
+        })}
       </div>
     </section>
   )
