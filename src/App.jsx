@@ -1,12 +1,14 @@
-import FullProfile from "./Components/FullProfile"
+import FullProfile from "./Components/FullProfile";
+import { TimeLapseProvider } from "./Hooks/Context/TimeLapseContext";
 
 function App() {
- 
   return (
     <main>
-      <FullProfile />
+      <TimeLapseProvider>
+        <FullProfile />
+      </TimeLapseProvider>
     </main>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./TimeTrackerCard.css";
 import ellipsis from "./icon-ellipsis.svg";
 

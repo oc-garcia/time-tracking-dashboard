@@ -41,8 +41,16 @@
     align-items: flex-start;
 }
 
-.FilterControls button {
+.deactiveBtn {
     color: var(--Pale-Blue);
+    background-color: var(--Dark-blue);
+    border: none;
+    margin-top: 0.2rem;
+    cursor: pointer;
+}
+
+.activeBtn {
+    color: white;
     background-color: var(--Dark-blue);
     border: none;
     margin-top: 0.2rem;
