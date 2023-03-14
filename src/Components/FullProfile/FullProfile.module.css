@@ -1,24 +1,41 @@
 .ProfileContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    height: 100vh;
-    width: 100vw;
-    padding: 10%;
-    background-color: var(--Very-dark-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100vh;
+  width: 100vw;
+  padding: 10%;
+  background-color: var(--Very-dark-blue);
 }
 
 .UserContainer {
-    flex: 1;
-    max-width: fit-content;
+  flex: 1;
+  max-width: fit-content;
 }
 
 .TimeContainer {
-    flex: 3;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 1rem;
+  flex: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .ProfileContainer {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .UserContainer {
+    max-width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .TimeContainer {
+    flex: 1;
+    width: 100%;
+  }
 }

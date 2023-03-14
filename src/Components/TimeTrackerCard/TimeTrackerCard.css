@@ -79,3 +79,9 @@
   color: var(--Pale-Blue);
   font-size: small;
 }
+
+@media only screen and (max-width: 800px) {
+.TrackerContainer {
+  width: 100%;
+}
+}
