@@ -13,16 +13,25 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  color: var(--Pale-Blue);
+}
+
+.TrackerTitleContainer h2 {
+  font-size: large;
+  color: white;
 }
 
 .Header {
-  height: 3rem;
+  height: 4rem;
   width: 100%;
   border-radius: 5px 5px 0 0;
   background-repeat: no-repeat;
   background-position: 80%;
   background-size: 15%;
+}
+
+.Header h1 {
+  opacity: 0;
+  font-size: x-large;
 }
 
 .Work {
@@ -80,12 +89,12 @@
   font-size: small;
 }
 
-.TrackerTitleContainer img{
+.TrackerTitleContainer img {
   cursor: pointer;
 }
 
 @media only screen and (max-width: 800px) {
-.TrackerContainer {
-  width: 100%;
-}
+  .TrackerContainer {
+    width: 100%;
+  }
 }
