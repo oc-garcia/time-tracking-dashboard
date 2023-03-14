@@ -10,6 +10,7 @@
 
 .UserContainer {
     flex: 1;
+    max-width: fit-content;
 }
 
 .TimeContainer {
@@ -19,4 +20,5 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 1rem;
 }

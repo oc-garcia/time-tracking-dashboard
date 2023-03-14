@@ -1,0 +1,81 @@
+.TrackerContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Dark-blue);
+  border-radius: 5px;
+  min-width: 30%;
+  height: 21vh;
+}
+
+.TrackerTitleContainer {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: var(--Pale-Blue);
+}
+
+.Header {
+  height: 3rem;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+  background-repeat: no-repeat;
+  background-position: 80%;
+  background-size: 15%;
+}
+
+.Work {
+  background-color: var(--Work);
+  background-image: url(../../Assets/Images/icon-work.svg);
+}
+
+.Play {
+  background-color: var(--Play);
+  background-image: url(../../Assets/Images/icon-play.svg);
+}
+
+.Study {
+  background-color: var(--Study);
+  background-image: url(../../Assets/Images/icon-study.svg);
+}
+
+.Exercise {
+  background-color: var(--Exercise);
+  background-image: url(../../Assets/Images/icon-exercise.svg);
+}
+
+.Social {
+  background-color: var(--Social);
+  background-image: url(../../Assets/Images/icon-social.svg);
+}
+
+.Self-Care {
+  background-color: var(--Self-care);
+  background-image: url(../../Assets/Images/icon-self-care.svg);
+}
+
+.CardInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.HoursContainer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.Actual {
+  color: white;
+  font-size: xxx-large;
+}
+
+.Previous {
+  color: var(--Pale-Blue);
+  font-size: small;
+}

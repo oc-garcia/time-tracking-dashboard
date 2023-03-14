@@ -29,14 +29,16 @@
 .UserInformation h1 {
   font-size: x-large;
   font-weight: 500;
-  color: var(--Pale-Blue);
+  color: white;
 }
 
 .FilterControls {
     padding: 1rem;
+    height: 35%;
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
 .FilterControls button {

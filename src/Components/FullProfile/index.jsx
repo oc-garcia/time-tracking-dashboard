@@ -10,7 +10,6 @@ export default function FullProfile() {
 
   const hours = userData[0].hours
 
-  console.log(hours)
   return (
     <section className={style.ProfileContainer}>
       <div className={style.UserContainer}>
@@ -22,6 +21,9 @@ export default function FullProfile() {
           <TimeTrackerCard
           key={data.title} 
           title={data.title}
+          actual={data.timeframes.daily.current}
+          previous={data.timeframes.daily.previous}
+          theme={data.title}
           />
           )
         })}
