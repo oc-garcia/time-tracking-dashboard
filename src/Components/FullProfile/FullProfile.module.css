@@ -10,7 +10,8 @@
 
 .UserContainer {
   flex: 1;
-  max-width: fit-content;
+  width: fit-content;
+  margin-right: 1rem;
 }
 
 .TimeContainer {
@@ -30,8 +31,9 @@
   }
 
   .UserContainer {
-    max-width: 100%;
-    margin-bottom: 1rem;
+    width: 100%;
+    margin: 0 0 1rem 0;
+
   }
 
   .TimeContainer {
