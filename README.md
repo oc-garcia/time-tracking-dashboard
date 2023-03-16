@@ -1,14 +1,14 @@
-#Time Tracking Dashboard
+# Time Tracking Dashboard
 
 This is a static time tracking dashboard built with React and Context API that allows users to filter their tracked time by daily, weekly, and monthly time lapses.
 
-##Features
+## Features
 
 Filter tracked time by daily, weekly, and monthly time lapses
 View total tracked time for each time lapse
 Mobile-responsive design
 
-##Technologies Used
+## Technologies Used
 
 HTML
 - CSS
@@ -16,17 +16,17 @@ HTML
 - React
 - Context API
 
-##How to Use
+## How to Use
 - Clone this repository or download the ZIP file.
 - Install dependencies by running npm install in the terminal.
 - Start the application by running npm start in the terminal.
 - Filter through tracked time by selecting the desired time lapse.
 - View total tracked time for each time lapse.
 
-##Contributing
+## Contributing
 Contributions to this project are welcome! If you find a bug or want to add a new feature, please open an issue or submit a pull request.
 
-##License
+## License
 This project is licensed under the MIT License.
 
 
